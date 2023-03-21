@@ -8,30 +8,40 @@ Grupo 3
 ##### Processo de Desenvolvimento de Software - PDS
 > O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade.
 ##### Estudo de Caso – Sistema Integrado de Gestão
-> No contexto do projeto interdisciplinar o estudo de caso tem como objetivo desenvolver e implantar um Sistema Integrado de Gestão de Vendas e Suprimentos.
-Os seguintes requisitos foram identificados na primeira reunião com o cliente (RU – Requisito de Usuário). O resultado da análise conclui que será possível implementar
-o projeto no semestre com grupos de alunos atuando como programadores. O maior risco identificado é a falta de tempo para reunião do time de desenvolvimento e estudo
-do projeto. O grupo deve definir estratégias para mitigar o risco de dificuldades com a linguagem de programação, identificando membros do grupo com problemas na
-programação, selecionando videoaulas, referência bibliográficas, para melhora a produtividade do time.
+> Colocar  microempresários  e  clientes  em  contato  através  da  tecnologia  por meio   da   nossa   plataforma.   queremos   melhorar   a   forma   de relacionamento empresário/cliente,  facilitando  o  caminho  entre  os  dois,  tornando  mais  simples  e rápido o encontro dos dois.
 ##### Product Backlog
 - RU01 - Compras - Registra e acompanha os processos de compras na organização, prevê a entrega programada de pedidos de compra
 - RU02 - Recebimento - Registra, controla e informa sobre a entrada de mercadorias e integra as informações dos dados da nota fiscal de entrada com o estoque
 - RU03 - Vendas – Registra e acompanha as vendas mantendo as informações integradas com o controle de estoque.
 ##### Sprint Backlog
 > Cada requisito tem um identificador único de maneira que seja possível rastrear a necessidade do cliente com a implementação do software.
+
 | Identificador | Descrição | Prioridade |
 | ------------ | ------------------------------------------------------------------------ | ------|
-| REQ01 – cadastrar cliente | Como – vendedor, Eu quero – cadastrar o cliente, De maneira que – seja possível identificar o cliente e o endereço de entrega para confirmar uma venda| Média |
-| REQ02 – consultar cliente por ID| Como – vendedor, Eu quero – consultar um cliente pelo ID, De maneira que – seja possível obter informações detalhas do cliente | Alta |
-| REQ03 – consultar cliente por CPF | Como – vendedor, Eu quero – consultar um cliente, De maneira que – seja possível obter informações detalhas do cliente | Alta |
-| REQ04 – consultar todos os clientes | Como – vendedor, Eu quero – consultar todos os clientes cadastrado, De maneira que – seja possível obter uma lista de clientes | Baixa |
-| REQ05 – corrigir informações de cliente | Como – vendedor, Eu quero – corrigir as informações do cliente, De maneira que – seja possível manter as informações atualizadas | Baixa |
-| REQ06 – excluir cliente | Como – vendedor, Eu quero – excluir um cliente, De maneira que – seja possível manter informações somente de clientes ativos | Baixa |
+|  |                         MICROEMPREENDEDOR | |
+| REQ01 – Cadastrar Microempreendedor | Como – Microempreendedor, Eu quero – Me cadastrar, De maneira que – Colocar minha empresa em evidência para que clientes possam ter acesso ao meu negócio.| Média |
+| REQ02 – Login do Microempreendedor| Como – Microempreendedor, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e ter outras funcionalidades de microempreendedor do site.| Alta |
+| REQ03 – Alterar Dados | Como – Microempreendedor, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da empresa. | Alta |
+| REQ04 – Chat | Como – Microempreendedor, Eu quero – Ter acesso ao chat com clientes, De maneira que – Ter um contato direto com eles e poder sanar possíveis dúvidas, ampliando assim a rede de consumidores. | Baixa |
+| REQ05 – Logout | Como – Microempreendedor, Eu quero – Deslogar do sistema, De maneira que –  Poder sair com segurança do site e não deixar meus dados expostos. | Baixa |
+|  | CLIENTE | |
+| REQ06 – Cadastrar Cliente | Como – Cliente, Eu quero – Me cadastrar no sistema, De maneira que – Poder ter acesso as microempresas disponíveis no aplicativo do sistema. | Média |
+| REQ07 – Login do Cliente| Como – Cliente, Eu quero – Me logar no sistema, De maneira que – Ter acesso às informações cadastradas e as empresas salvas em meus destaques| Alta |
+| REQ08 – Alterar Dados | Como – Cliente, Eu quero – Poder alterar minhas informações, De maneira que – Conseguir muda-las quando não são mais válidas ou inverossímeis, exemplo: telefone, endereço da prestação de serviço | Alta |
+| REQ09 – Destaque de empresa | Como – Cliente, Eu quero – Conseguir salvar empresas que gostei e colocar em meus destaques para poder ter acesso mais tarde, De maneira que – Que seja mais simples encontrar empresas que gostei no sistema e ter um melhor controle de serviços. | Baixa |
+| REQ10 – Acessar localização da empresa| Como – Cliente, Eu quero – Conseguir visualizar o endereço disponibilizado pela empresa no mapa., De maneira que – Conseguir saber exatamente onde a empresa está localizada| Baixa |
+| REQ11 – Chat | Como – Cliente, Eu quero – Conseguir colocar comentários nos perfis das empresas., De maneira que – Dar um feedback para a empresa, para outros clientes que queiram contratar seus serviços e relatar dúvidas sobre serviços. | Baixa |
+| REQ12 – Logout | Como – Cliente, Eu quero – Deslogar do sistema, De maneira que – Poder sair com segurança do site e não deixar meus dados expostos. | Baixa |
+|  | SISTEMA  |  |
+| REQ013 – Listagem de empresas | Como – Sistema, Eu quero – Fazer a listagem de microempresas, De maneira que – Que os clientes do sistema possam ter acesso as microempresas cadastradas no sistema e para que as microempresas possam ter a visibilidade necessária para que sua gama de usuários e consumidores aumente.| Média |
+
+
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade
 é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
+
 ##### Casos de teste
 | Identificador | Cenário de uso |
 | ------------ | ------------------------------------------------------------------------ |
