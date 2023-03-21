@@ -38,10 +38,8 @@ programação, selecionando videoaulas, referência bibliográficas, para melhor
 | REQ01CT01 | Dado (setup) que o CPF do cliente não está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema envia uma mensagem de cadastro realizado com sucesso |
 | REQ01CT02 | Dado (setup) que o CPF do cliente está cadastrado; Quando (ação) o usuário confirma o cadastro; Então (resultado esperado) o sistema rejeita e envia uma mensagem de dados inválidos |
 >
-[ed02 - identificação de objetos do dominio.pdf](https://github.com/Beatriz-Chagas/dw004/files/11028673/ed02.-.identificacao.de.objetos.do.dominio.pdf)
-
 O modelo de dominio (Larman, 2006 - classes conceituais ou classes de negócio) foi definido considerando as seguintes classes:
-![modelo de dominio]()
+![modelo de dominio]![ed02 - identificação de objetos do dominio](https://user-images.githubusercontent.com/99518259/226618784-de8a4618-4fc3-4aef-8ee1-acfb23f810d0.png)
 A arquitetura segue uma abordagem orientada a serviços. Os serviços foram classificados em três tipos (ERL, 2007):
 - **1. Serviços utilitários**. Implementam funcionalidades comuns a vários tipos de aplicações, como, por exemplo: log, notificação, transformação de informações. Um exemplo de serviço utilitário é um serviço de conversão de moeda que
 poderá ser acessado para calcular a conversão de uma moeda (por exemplo, dólares) para outra (por exemplo, euros).
